@@ -7,11 +7,11 @@
 </head>
 
 <body style='margin : 0px; overflow: hidden;'>
-    <a-scene embedded arjs>
+    <a-scene embedded arjs="sourceType: webcam;">
         <a-marker preset="hiro">
             <a-entity
-                obj-model="obj: url(3d-model/SHIRE_01.obj);
-                mtl: url(3d-model/SHIRE_01.mtl)">
+                obj-model="obj: url(3d-model/glasses/model.obj);
+                mtl: url(3d-model/glasses/materials.mtl)">
             </a-entity>
         </a-marker>
         <a-entity camera>
